@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jihan's Cafe | cart </title>
+    <link rel="stylesheet" href="bootstrap-5.0.0-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="dist/css/lightbox.min.css">
+</head>
+
+<body>
+    <!--navbar-->
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark main-color">
+        <div class="container-fluid">
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <a class="navbar-brand me-auto" href="#">Jihan's Cafe</a>
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item me-3">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item me-3">
+                        <a class="nav-link " href="produk.html">Menu</a>
+                    </li>
+                    <li class="nav-item dropdown me-3">
+                        <a class="nav-link" href="promo.html" id="navbarPromo" role="button" data-bs-toggle="Promo"
+                            aria-expanded="false">
+                            Promo </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarPromo">
+                            <li><a class="dropdown-item" href="produk.html">Action</a></li>
+                            <li><a class="dropdown-item" href="produk.html">Another action</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="produk.html">Something else here</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item me-3">
+                        <a class="nav-link active" href="#" tabindex="-1" aria-disabled="true"><i
+                                class="bi bi-cart4"></i>Cart</a>
+                    </li>
+                </ul>
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <!--table-->
+    <div class="container-fluid py-5">
+        <div class="container">
+            <h2 class="text-center my-5">Keranjang Belanja</h2>
+
+            <div class="table-responsive">
+                <table class="table">
+                    <tr>
+                        <th>Preview</th>
+                        <th>Order</th>
+                        <th>Price</th>
+                        <th>Jumlah</th>
+                        <th>Total</th>
+                    </tr>
+
+                    <tr style="vertical-align: middle;">
+                        <td>
+                            <a href="image/product/french-fries.jpg" data-lightbox="image-1" data-title="french-fries">
+                                <img src="image/product/thumb/french-fries.jpg" class="img-thumbnail d-none d-sm-block"
+                                    width="150px" alt="">
+
+                                <label class="d-block d-sm-none"> french fries</label>
+                            </a>
+                        </td>
+                        <td>french-fries</td>
+                        <td>Rp. 20.000</td>
+                        <td>1</td>
+                        <td>Rp. 20.000</td>
+                    </tr>
+
+                    <tr style="vertical-align: middle;">
+                        <td>
+                            <a href="image/product/steak.jpg" data-lightbox="image-1" data-title="Steak">
+                                <img src="image/product/thumb/steak.jpg" class="img-thumbnail d-none d-sm-block"
+                                    width="150px" alt="">
+                                <label class="d-block d-sm-none"> Steak</label>
+
+                            </a>
+                        </td>
+                        <td>Steak</td>
+                        <td>Rp. 85.000</td>
+                        <td>2</td>
+                        <td>Rp. 170.000</td>
+                    </tr>
+
+                    <tr style="vertical-align: middle;">
+                        <td>
+                            <a href="image/product/strawberry-drink.jpg" data-lightbox="image-1"
+                                data-title="strawberry-drink">
+                                <img src="image/product/thumb/strawberry-drink.jpg"
+                                    class="img-thumbnail d-none d-sm-block" width="150px" alt="">
+                                <label class="d-block d-sm-none"> Strawberry Drink</label>
+                            </a>
+                        </td>
+                        <td>Strawberry Drink</td>
+                        <td>Rp. 25.000</td>
+                        <td>2</td>
+                        <td>Rp. 50.000</td>
+                    </tr>
+
+                    <tr>
+                        <th colspan="4">Total</th>
+                        <th>Rp. 240.000</th>
+                    </tr>
+
+                </table>
+
+            </div>
+            <button class="btn btn-warning text-light mb-3"> Checkout </button>
+        </div>
+
+        <!--subscribe-->
+        <div class="container-fluid py-5 content-subscribe d-flex text-light">
+            <div class="container">
+                <h5 class="text-center mb-4">Find About Us</h5>
+                <div class="row justify-content-center">
+                    <div class="col-sm-1 d-flex justify-content-center mb-2">
+                        <i class="bi bi-facebook fs-4"></i>
+                    </div>
+                    <div class="col-sm-1 d-flex justify-content-center mb-2">
+                        <i class="bi bi-instagram fs-4"></i>
+                    </div>
+                    <div class="col-sm-1 d-flex justify-content-center mb-2">
+                        <i class="bi bi-twitter fs-4"></i>
+                    </div>
+                    <div class="col-sm-1 d-flex justify-content-center">
+                        <i class="bi bi-youtube fs-4"></i>
+                    </div>
+                </div>
+                <h5 class="text-center mt-5 mb-0">Subscribe</h5>
+                <p class="text-center font-monospace">Untuk Informasi Tentang Promo</p>
+                <div class="col-md-8 offset-md-2 col-lg-6 offset-lg-3">
+                    <div class="input-group mb-3 ">
+                        <input type="text" class="form-control" placeholder="Ketikkan Email"
+                            aria-describedby="button-addon2">
+                        <button class="btn btn-warning text-light" type="button" id="button-addon2">Subscribe</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!--footer-->
+        <div class="container-fluid py-3 bg-dark text-light">
+            <div class="container d-flex justify-content-between">
+                <label>&copy;2024 Jihan's Cafe</label>
+                <label>Created by Jihan Nur Azizah_042</label>
+            </div>
+        </div>
+    </div>
+    <script src="bootstrap-5.0.0-dist/js/bootstrap.bundle.min.js"> </script>
+    <script src="dist/js/lightbox-plus-jquery.min.js"></script>
+
+</body>
+
+</html>
